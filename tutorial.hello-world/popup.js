@@ -13,8 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
         chrome.windows.create({
             url: 'popup2.html',
             type: 'popup',
-            width: 500,
-            height: 300
+            width: 800,
+            height: 700,
+            left: 300,
+            top: 20
+
         });
     }
     setTimeout(popup2, 750);
