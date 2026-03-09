@@ -334,13 +334,25 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         }
 
+        function popup27a(){ //am
+        chrome.windows.create({
+            url: '27pop2.html',
+            type: 'popup',
+            width: 50,
+            height: 50,
+            left: 790,
+            top: 360
+
+        });
+        }
+
         function popup28(){ //and
         chrome.windows.create({
             url: '28pop.html',
             type: 'popup',
             width: 170,
             height: 100,
-            left: 830,
+            left: 850,
             top: 360
 
         });
@@ -353,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 320,
             height: 160,
-            left: 900,
+            left: 920,
             top: 340
 
         });
@@ -423,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 100,
             height: 80,
-            left: 390,
+            left: 490,
             top: 390
 
         });
@@ -435,20 +447,80 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 100,
             height: 80,
-            left: 440,
+            left: 600,
             top: 440
 
         });
         }
 
-        function popup37(){ //my eyes
+        function popup37(){ //my 
         chrome.windows.create({
             url: '37pop.html',
             type: 'popup',
             width: 100,
             height: 80,
-            left: 490,
-            top: 490
+            left: 690,
+            top: 440
+
+        });
+        }
+
+        function popup38(){ // eyes
+        chrome.windows.create({
+            url: '38pop.html',
+            type: 'popup',
+            width: 100,
+            height: 180,
+            left: 750,
+            top: 440
+
+        });
+        }
+
+        function popup39(){ // from closing
+        chrome.windows.create({
+            url: '39pop.html',
+            type: 'popup',
+            width: 100,
+            height: 150,
+            left: 950,
+            top: 480
+
+        });
+        }
+
+        function popup40(){ // in between
+        chrome.windows.create({
+            url: '40pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 180,
+            top: 520
+
+        });
+        }
+
+        function popup41(){ // each
+        chrome.windows.create({
+            url: '41pop.html',
+            type: 'popup',
+            width: 150,
+            height: 120,
+            left: 10,
+            top: 520
+
+        });
+        }
+
+        function popup42(){ // rest
+        chrome.windows.create({
+            url: '42pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 350,
+            top: 520
 
         });
         }
@@ -480,6 +552,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(popup25, 16600); //press
     setTimeout(popup26, 17200); //now it's
     setTimeout(popup27, 17700); //1am
+    setTimeout(popup27a, 18200); //am
     setTimeout(popup28, 18800); //and
     setTimeout(popup29, 19300); //i dont know
     setTimeout(popup30, 20200); //how i'll get
@@ -487,9 +560,15 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(popup32, 21800); //the way is
     setTimeout(popup33, 22400); //barely
     setTimeout(popup34, 22900); //paved
-    setTimeout(popup35, 23600); //i can't
-    setTimeout(popup36, 24000); //keep
-    setTimeout(popup37, 24700); //my eyes
+    setTimeout(popup35, 23900); //i can't
+    setTimeout(popup36, 24500); //keep
+    setTimeout(popup37, 25300); //my 
+    setTimeout(popup38, 25800); //eyes
+    setTimeout(popup39, 26500); //from closing
+    setTimeout(popup40, 27000); //in between
+    setTimeout(popup41, 27500); //each
+    setTimeout(popup42, 28000); //rest
+    
     
 
     
