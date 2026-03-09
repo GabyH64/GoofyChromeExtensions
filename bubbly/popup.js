@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 200,
             height: 140,
-            left: 50,
+            left: 20,
             top: 250
 
         });
@@ -280,8 +280,8 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 200,
             height: 90,
-            left: 430,
-            top: 300
+            left: 370,
+            top: 220
 
         });
         }
@@ -292,8 +292,8 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 70,
             height: 130,
-            left: 230,
-            top: 300
+            left: 200,
+            top: 220
 
         });
         }
@@ -304,12 +304,154 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'popup',
             width: 170,
             height: 130,
-            left: 500,
-            top: 300
+            left: 510,
+            top: 220
 
         });
         }
-    
+
+        function popup26(){ //now it's
+        chrome.windows.create({
+            url: '26pop.html',
+            type: 'popup',
+            width: 170,
+            height: 120,
+            left: 690,
+            top: 200
+
+        });
+        }
+        
+        function popup27(){ //1am
+        chrome.windows.create({
+            url: '27pop.html',
+            type: 'popup',
+            width: 170,
+            height: 160,
+            left: 690,
+            top: 280
+
+        });
+        }
+
+        function popup28(){ //and
+        chrome.windows.create({
+            url: '28pop.html',
+            type: 'popup',
+            width: 170,
+            height: 100,
+            left: 830,
+            top: 360
+
+        });
+        }
+
+        
+        function popup29(){ //i don't know
+        chrome.windows.create({
+            url: '29pop.html',
+            type: 'popup',
+            width: 320,
+            height: 160,
+            left: 900,
+            top: 340
+
+        });
+        }
+
+        function popup30(){ //how i'll get
+        chrome.windows.create({
+            url: '30pop.html',
+            type: 'popup',
+            width: 320,
+            height: 160,
+            left: 10,
+            top: 340
+
+        });
+        }
+
+        function popup31(){ //home
+        chrome.windows.create({
+            url: '31pop.html',
+            type: 'popup',
+            width: 320,
+            height: 160,
+            left: 10,
+            top: 420
+
+        });
+        }
+
+        function popup32(){ //the way is
+        chrome.windows.create({
+            url: '32pop.html',
+            type: 'popup',
+            width: 320,
+            height: 80,
+            left: 180,
+            top: 340
+
+        });
+        }
+        function popup33(){ //barely
+        chrome.windows.create({
+            url: '33pop.html',
+            type: 'popup',
+            width: 320,
+            height: 120,
+            left: 180,
+            top: 420
+
+        });
+        }
+        function popup34(){ //paved
+        chrome.windows.create({
+            url: '34pop.html',
+            type: 'popup',
+            width: 100,
+            height: 80,
+            left: 340,
+            top: 440
+
+        });
+        }
+
+        function popup35(){ //i can't
+        chrome.windows.create({
+            url: '35pop.html',
+            type: 'popup',
+            width: 100,
+            height: 80,
+            left: 390,
+            top: 390
+
+        });
+        }
+
+        function popup36(){ //keep
+        chrome.windows.create({
+            url: '36pop.html',
+            type: 'popup',
+            width: 100,
+            height: 80,
+            left: 440,
+            top: 440
+
+        });
+        }
+
+        function popup37(){ //my eyes
+        chrome.windows.create({
+            url: '37pop.html',
+            type: 'popup',
+            width: 100,
+            height: 80,
+            left: 490,
+            top: 490
+
+        });
+        }
     
     setTimeout(popup2, 500);
     setTimeout(popup3, 1500); //drums
@@ -328,14 +470,27 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(popup15, 9800); //guess
     setTimeout(popup16, 10300); //the cavern
     setTimeout(popup17, 10800); //is a crowd
-    setTimeout(popup18, 11300); //around
+    setTimeout(popup18, 11500); //around
     setTimeout(popup19, 12300); //and i
     setTimeout(popup20, 13000); //can scarve
     setTimeout(popup21, 13400); //get by
-    setTimeout(popup22, 13900); //on second breath
+    setTimeout(popup22, 14200); //on second breath
     setTimeout(popup23, 15500); //between
-    setTimeout(popup24, 15900); //the
-    setTimeout(popup25, 16300); //press
+    setTimeout(popup24, 16100); //the
+    setTimeout(popup25, 16600); //press
+    setTimeout(popup26, 17200); //now it's
+    setTimeout(popup27, 17700); //1am
+    setTimeout(popup28, 18800); //and
+    setTimeout(popup29, 19300); //i dont know
+    setTimeout(popup30, 20200); //how i'll get
+    setTimeout(popup31, 21200); //home
+    setTimeout(popup32, 21800); //the way is
+    setTimeout(popup33, 22400); //barely
+    setTimeout(popup34, 22900); //paved
+    setTimeout(popup35, 23600); //i can't
+    setTimeout(popup36, 24000); //keep
+    setTimeout(popup37, 24700); //my eyes
+    
 
     
     
