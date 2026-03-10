@@ -20,3 +20,12 @@
 .large{
     font-size: 50;
 }
+
+.giant {
+    font-size: 150;
+}
+
+.giantred {
+    font-size: 200;
+    color:red;
+}

@@ -524,6 +524,128 @@ document.addEventListener('DOMContentLoaded', function () {
 
         });
         }
+
+        function popup43(){ // but i'm
+        chrome.windows.create({
+            url: '43pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 500,
+            top: 520
+
+        });
+        }
+
+        function popup44(){ // not
+        chrome.windows.create({
+            url: '44pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 600,
+            top: 460
+
+        });
+        }
+
+        function popup45(){ // going
+        chrome.windows.create({
+            url: '45pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 600,
+            top: 650
+
+        });
+        }
+
+        function popup46(){ // to
+        chrome.windows.create({
+            url: '46pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 700,
+            top: 480
+
+        });
+        }
+
+        function popup47(){ // cave
+        chrome.windows.create({
+            url: '47pop.html',
+            type: 'popup',
+            width: 100,
+            height: 120,
+            left: 700,
+            top: 650
+
+        });
+        }
+
+        function popup48(){ // I
+        chrome.windows.create({
+            url: '48pop.html',
+            type: 'popup',
+            width: 150,
+            height: 300,
+            left: 150,
+            top: 10
+
+        });
+        }
+
+        function popup49(){ // guess
+        chrome.windows.create({
+            url: '49pop.html',
+            type: 'popup',
+            width: 500,
+            height: 250,
+            left: 800,
+            top: 10
+
+        });
+        }
+
+        function popup50(){ // I
+        chrome.windows.create({
+            url: '50pop.html',
+            type: 'popup',
+            width: 150,
+            height: 300,
+            left: 150,
+            top: 500
+
+        });
+        }
+
+        function popup51(){ // made
+        chrome.windows.create({
+            url: '51pop.html',
+            type: 'popup',
+            width: 500,
+            height: 250,
+            left: 800,
+            top: 500
+
+        });
+        }
+
+        function popup52(){ // it
+        chrome.windows.create({
+            url: '52pop.html',
+            type: 'popup',
+            width: 250,
+            height: 450,
+            left: 500,
+            top: 250
+
+        });
+        }
+
+
     
     setTimeout(popup2, 500);
     setTimeout(popup3, 1500); //drums
@@ -557,17 +679,31 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(popup29, 19300); //i dont know
     setTimeout(popup30, 20200); //how i'll get
     setTimeout(popup31, 21200); //home
-    setTimeout(popup32, 21800); //the way is
+    setTimeout(popup32, 21600); //the way is
     setTimeout(popup33, 22400); //barely
     setTimeout(popup34, 22900); //paved
     setTimeout(popup35, 23900); //i can't
-    setTimeout(popup36, 24500); //keep
-    setTimeout(popup37, 25300); //my 
-    setTimeout(popup38, 25800); //eyes
-    setTimeout(popup39, 26500); //from closing
-    setTimeout(popup40, 27000); //in between
+    setTimeout(popup36, 24200); //keep
+    setTimeout(popup37, 24900); //my 
+    setTimeout(popup38, 25100); //eyes
+    setTimeout(popup39, 25600); //from closing
+    setTimeout(popup40, 26500); //in between
     setTimeout(popup41, 27500); //each
-    setTimeout(popup42, 28000); //rest
+    setTimeout(popup42, 27800); //rest
+    setTimeout(popup43, 28200); //but i'm
+    setTimeout(popup44, 28700); //not
+    setTimeout(popup45, 29100); //goin
+    setTimeout(popup46, 29300); //to
+    setTimeout(popup47, 29700); //care
+    setTimeout(popup48, 30100); //I
+    setTimeout(popup49, 30600); //guess
+    setTimeout(popup50, 31000); //I
+    setTimeout(popup51, 31700); //made
+    setTimeout(popup52, 32200); //it
+
+    
+    
+    
     
     
 
