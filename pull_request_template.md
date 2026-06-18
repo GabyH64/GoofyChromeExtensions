@@ -1,6 +1,6 @@
 # Description
 
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Please include a summary of the changes and the related issue (if any). Please also include relevant motivation and context. List any dependencies that are required for this change.
 
 Fixes # (issue)
 
@@ -15,10 +15,20 @@ Please delete options that are not relevant.
 
 # How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration. Please include photos of your setup. 
 
-- [ ] Test A
-- [ ] Test B
+## Test A Description
+
+
+### Photos and their description
+<!-- (at the bottom of the pull request text box there is an option to add files) -->
+
+## Test B Description
+
+
+### Photos and their description
+<!-- (at the bottom of the pull request text box there is an option to add files) -->
+
 
 **Test Configuration**:
 * Firmware version:
@@ -29,6 +39,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Checklist:
 
 - [ ] My code follows the style guidelines of this project
+- [ ] If new functions have been added, unit tests have been made for it
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
