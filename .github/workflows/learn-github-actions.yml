@@ -1,19 +1,29 @@
-name: Check for Specific Word/image
-on: [pull_request]
+
+name: PR Description Validator
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
 
 jobs:
-  word-check:
+  validate-pr-description:
+    name: Validate PR Description
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Set up workspace
+      uses: actions/checkout@v2
 
-      - name: Search for forbidden word
-        run: |
-          # Change "cheese" to the word you want to catch
-          if git grep -q "cheese" ; then
-            echo "::error::cheese word found! The is good."
-          else
-            echo "cheese word not found. failing..."
-            exit 1
-          fi
+    - name: Validate PR Description
+      run: |
+        # Ensure jq is installed
+        sudo apt-get install jq
+
+        # Fetch PR description using jq
+        PR_DESCRIPTION=$(jq -r ".pull_request.body" "$GITHUB_EVENT_PATH")
+        KEYWORD="cheese"
+
+        # Check for the required keyword in the PR description
+        if [[ $PR_DESCRIPTION != *"$KEYWORD"* ]]; then
+          echo "PR description does not contain the required keyword."
+          exit 1
+        fi
