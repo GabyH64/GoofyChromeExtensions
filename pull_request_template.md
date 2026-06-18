@@ -28,7 +28,7 @@ Photos:
 
 # Checklist:
 
-- [ ] My code follows the style guidelines of this project 
+- [ ] My code follows the style guidelines of this project ([Style Guide Link](https://www.google.com))
 - [ ] If new functions have been added, unit tests have been made for it
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
