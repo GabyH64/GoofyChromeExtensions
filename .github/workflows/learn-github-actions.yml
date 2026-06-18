@@ -1,0 +1,19 @@
+name: Check for Specific Word
+on: [push, pull_request]
+
+jobs:
+  word-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Search for forbidden word
+        run: |
+          # Change "cheese" to the word you want to catch
+          if git grep -q "cheese" ; then
+            echo "::error::cheese word found! The build failed."
+            exit 1
+          else
+            echo "cheese word not found. Proceeding..."
+          fi
