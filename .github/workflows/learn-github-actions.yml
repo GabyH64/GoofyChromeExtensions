@@ -1,5 +1,5 @@
-name: Check for Specific Word
-on: [push, pull_request]
+name: Check for Specific Word/image
+on: [pull_request]
 
 jobs:
   word-check:
