@@ -28,7 +28,7 @@ Photos:
 
 # Checklist:
 
-- [ ] My code follows the style guidelines of this project ([Style Guide Link](https://www.google.com))
+- [ ] My code follows the style guidelines of this project ([Style Guide Link](https://github.com/HI-SNR-Lab/uhd_radar/blob/main/STYLEGUIDE.md))
 - [ ] If new functions have been added, unit tests have been made for it
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
