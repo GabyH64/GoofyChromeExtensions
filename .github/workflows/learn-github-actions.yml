@@ -20,7 +20,7 @@ jobs:
 
         # Fetch PR description using jq
         PR_DESCRIPTION=$(jq -r ".pull_request.body" "$GITHUB_EVENT_PATH")
-        KEYWORD="cheese"
+        KEYWORD="img width"
 
         # Check for the required keyword in the PR description
         if [[ $PR_DESCRIPTION != *"$KEYWORD"* ]]; then
