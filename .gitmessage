@@ -3,3 +3,9 @@
 <body>
 
 <optional footer>
+
+#Type: the type of change made by commit, list of types will be in commit rules section 
+#Scope: where the change was made e.g. sdr->main.cpp 
+#Subject: summary of changes made 
+#Body: details about commit, includes the motivation for commit and how it is different 
+#Optional Footer: anything one should be aware of, such as how to test the change and anything that now needs to be added because of the change 
